@@ -1,0 +1,4 @@
+---
+- debug: msg="Trigggering notification from inner role"
+  changed_when: True
+  notify: notification1
