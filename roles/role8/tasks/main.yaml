@@ -1,0 +1,6 @@
+---
+- name: Including nested role from role8
+  include_role:
+    name: inner_role8
+  vars:
+    running_role: role8

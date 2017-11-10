@@ -1,0 +1,4 @@
+---
+- debug: msg="Triggering notification10"
+  changed_when: True
+  notify: notification10

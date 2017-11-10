@@ -1,0 +1,3 @@
+---
+- name: notification6
+  debug: msg="Handler for notification6 in inner_role6"

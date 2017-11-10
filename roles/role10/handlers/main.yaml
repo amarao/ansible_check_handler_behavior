@@ -1,0 +1,10 @@
+---
+- name: notification10
+  listen: notification10
+  debug: msg="Handler for notification10"
+  notify: notification11
+
+- name: notification11
+  listen: notification10
+  debug: msg="Handler for notification10"
+  notify: notification10
