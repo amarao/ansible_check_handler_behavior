@@ -1,4 +1,4 @@
 ---
-- debug: msg="Trigggering notification from inner role"
+- debug: msg="Triggering notification from inner role 2"
   changed_when: True
-  notify: notification1
+  notify: notification2

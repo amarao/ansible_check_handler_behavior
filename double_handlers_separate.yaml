@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  gather_facts: no
+  roles:
+  - role1
+
+- hosts: localhost
+  gather_facts: no
+  roles:
+  - role2

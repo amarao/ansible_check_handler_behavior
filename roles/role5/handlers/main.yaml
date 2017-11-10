@@ -1,0 +1,4 @@
+---
+- name: Other handler
+  listen: notification5
+  debug: msg="Handler listen for notification5 in role5"

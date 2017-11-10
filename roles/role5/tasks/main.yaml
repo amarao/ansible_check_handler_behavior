@@ -1,0 +1,4 @@
+---
+- name: Including nested role from role5
+  include_role:
+    name: inner_role5

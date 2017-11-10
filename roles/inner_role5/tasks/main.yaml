@@ -1,0 +1,4 @@
+---
+- debug: msg="Triggering notification5 from inner role"
+  changed_when: True
+  notify: notification5
